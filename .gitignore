@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.npm/
+.yarn/
+
+# Build outputs & caches
+assets/
+dist/
+build/
+.vite/
+*.tsbuildinfo
+
+# Logs
+*.log
+pnpm-debug.log
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Tool caches
+.eslintcache
+.stylelintcache
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+.cache/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.venv/
+venv/
+env/
+
+# Coverage reports
+.coverage
+.coverage.*
+coverage/
+coverage.xml
+htmlcov/
+
+# IDE & OS noise
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Databases & misc
+*.sqlite3
+*.db
