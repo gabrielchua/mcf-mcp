@@ -2,7 +2,7 @@
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-This repository hosts a proof-of-concept Model Context Protocol (MCP) server that wraps the public [MyCareersFuture (MCF)](https://www.mycareersfuture.gov.sg/) job search API. It illustrates how to expose live job listings to ChatGPT through MCP, and how to optionally pair those responses with an Apps SDK widget for richer rendering in the ChatGPT client.
+This repository hosts a proof-of-concept Model Context Protocol (MCP) server that wraps the public [MyCareersFuture (MCF)](https://www.mycareersfuture.gov.sg/) job search API. It illustrates how to render this in ChatGPT with the Apps SDK.
 
 ![Screenshot of the MyCareersFuture widget rendered inside ChatGPT](./example_chatGPT.png)
 
