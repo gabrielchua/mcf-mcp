@@ -562,14 +562,16 @@ async def _call_tool_request(req: types.CallToolRequest) -> types.ServerResult:
         ),
     )
 
+    summary_block = types.TextContent(
+        type="text",
+        text=text_summary,
+    )
+
     return types.ServerResult(
         types.CallToolResult(
             content=[
+                summary_block,
                 embedded_resource,  # <-- Embed the widget HTML
-                types.TextContent(
-                    type="text",
-                    text=text_summary,
-                )
             ],
             structuredContent=structured_content,
             _meta=_tool_meta(),
